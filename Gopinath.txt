@@ -1,0 +1,33 @@
+Task 1
+1)	List 5 difference between Browser JS(console) v Nodejs?
+
+	Javascript is a programming language that is used for writing scripts on the website.	NodeJS is a Javascript runtime environment.
+	Javascript can only be run in the browsers.	NodeJS code can be run outside the browser.
+	It is basically used on the client-side.	It is mostly used on the server-side.
+	Javascript is capable enough to add HTML and play with the DOM.	Nodejs does not have capability to add HTML tags.
+	Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.	Nodejs can only run in V8 engine of google chrome.
+
+2)	watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf?
+* Flow chart of how render engine work
+*detail of parsing HTML & parsing of CSS
+*parsing flow,factor affecting parsing process
+*tokeniser => tree construction => DOM => script execution => tokeniser
+*Render tree/frame tree function, Render object=> Render Style => Render Layer => line box (handling txt)
+*working of layout , how changing in DOM affect the Layout.
+*Fianlly paint function , All the visullation work are done here
+
+3)	To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags?
+
+ do we html tags? 
+
+4)	 Execute the bellow code and write your description in txt file
+a)typeof(1) -Number(integer)
+b) typeof(1.1)-Number(Float)
+c) typeof(‘1’)- String
+d) typeof(1)- Boolean
+e) typeof(null)-Object
+f)typeof(undefined)-undefiend
+g) typeof([])- Object
+h)type({})-object
+i)typeof(Nan)- Number
+
