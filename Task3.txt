@@ -21,39 +21,41 @@ Task 3  21/07/21
   }
   obj.forEach(key=>console.log(key));
   
-  2)var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
-        xhr.onload = function () {
-          var data = JSON.parse(this.response);
-          // console.log(data)
-          foo(data);
-          
-        };
-        xhr.send();
-      function foo(A){
-        for(key of A){
-          console.log(key.flag);
-        }
-         
-       }
- 3)
- var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
-        xhr.onload = function () {
-          var data = JSON.parse(this.response);
-          // console.log(data)
-          foo(data);
-          
-        };
-        xhr.send();
-      function foo(A){
-        for(key of A){
-          console.log(key.name);
-          console.log(key.region);
-          console.log(key.subregion);
-         console.log(key.population);
+  2) Create your own resume data in JSON format?
+  
+  "basics": {
+    "name": "Gopinath",
+    "label": "Engineer",
+    "picture": " Nan",
+    "email": "gopimano4242@gmail.com",
+    "phone": "638062****",
+ 
+    "summary": " ",
+    "location": {
+      "address": "Chennai",
+      "postalCode": "600***",
+      "city": "Chennai",
+      "countryCode": "India",
+      "region": "TN"
+    },"education": [{
+    "institution": "University",
+    "area": "Civil Engineer",
+    "studyType": "Bachelor",
+    "startDate": "2014-01-01",
+    "endDate": "2018-01-01",
+    "gpa": "6025",
+    "courses": [
+      "Fullstack"
+    ]
+  }]}
+  
+  3) Read about the difference between window, screen and document in javascript?
+  
+**Window is the execution context and global object for that context's JavaScript
+**Document contains the DOM, initialized by parsing HTML
+**Screen describes the physical display's full screen
 
+4)Codekata practice
 
-        }
-         
-       }
+Done
+  
