@@ -1,7 +1,35 @@
+Task 1  (19/07/2021)
+A programming language targets the computing system, which can be a real or virtual machine. The instructions are executed by the machine.
+
+
+1)To read:
+a)https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
+b)https://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language
+***statically typed languages
+static typing means that types are known and checked for correctness before running your program. This is often done by the language's compiler. For example, the following Java method would cause a compile-error, before you run your program in a statically typed language variables' types are static, meaning once you set a variable to a type, you cannot change it. That is because typing is associated with the variable rather than the value it refers to. Examples: C, C++, Java, Rust, Go
+
+***Dynamically typed languages
+A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc. This means that you as a programmer can write a little quicker because you do not have to specify types every time (unless using a statically-typed language with type inference).Examples: Perl, Ruby, Python, PHP, JavaScript
+
+***scripting-language
+A scripting language usually sits behind some programming language. Scripting languages usually have less access to the computers native abilities since they run on a subset of the original programming language. An example here is that Javascript will not be able to access your file system. Scripting languages are usually slower than programming languages. eg)Lua,JavaScript,VBScript and VBA & Perl
+
+***Programming Languages
+A programming language targets the computing system, which can be a real or virtual machine. The instructions are executed by the machine.programming languages cannot be used for scripting,Programming languages like Java are compiled and not interpreted by another application in the same way. example of programming languages are{ C
+C++ and Java }
+
+2)codekata practice
+*** solved 5 Problems
+
+3)Difference between HTTP1.1 vs HTTP2?
+
+The primary advantage of HTTP/2 is its improved speed over HTTP/1.1. This is achieved thanks to a combination of elements: HTTP/2 is binary, instead of textual meaning it is more compact, travels faster 'on the wire' and is less susceptible to errors. HTTP/2 is fully multiplexed.
+HTTP 2.0 is a binary protocol that multiplexes numerous streams going over a single (normally TLS-encrypted) TCP connection. The contents of each stream are HTTP 1.1 requests and responses, just encoded and packed up differently. HTTP2 adds a number of features to manage the streams, but leaves old semantics untouched.
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
     
