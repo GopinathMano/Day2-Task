@@ -17,10 +17,14 @@ Task 2 - 20/07/2021
 *Fianlly paint function , All the visullation work are done here
 
 3)	To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags?
-
  do we html tags? 
+ It's true that the HTML specs permit certain tags to be omitted in certain cases, but generally doing so is unwise.
 
-4)	 Execute the bellow code and write your description in txt file
+It has two effects - it makes the spec more complex, which in turn makes it harder for browser authors to write correct implementations (as demonstrated by IE getting it wrong).
+
+This makes the likelihood of browser errors in these parts of the spec high. As a website author you can avoid the issue by including these tags - so while the spec doesn't say you have to, doing so reduces the chance of things going wrong, which is good  practice.
+
+4) Execute the bellow code and write your description in txt file
 a)typeof(1) -Number(integer)
 b) typeof(1.1)-Number(Float)
 c) typeof(‘1’)- String
@@ -32,3 +36,5 @@ h)type({})-object
 i)typeof(Nan)- Number
 
 5)Read what is prototype?
+
+A prototype is an early sample, model, or release of a product built to test a concept or process. It is a term used in a variety of contexts, including semantics, design, electronics, and software programming. A prototype is generally used to evaluate a new design to enhance precision by system analysts and users.
