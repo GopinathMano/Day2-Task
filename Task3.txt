@@ -30,7 +30,7 @@ Task 3  21/07/21
     "email": "gopimano4242@gmail.com",
     "phone": "638062****",
  
-    "summary": " ",
+    "summary": " xyz "},
     "location": {
       "address": "Chennai",
       "postalCode": "600***",
@@ -45,7 +45,7 @@ Task 3  21/07/21
     "endDate": "2018-01-01",
     "gpa": "6025",
     "courses": [
-      "Fullstack"
+      "Fullstack","cadd"
     ]
   }]}
   
