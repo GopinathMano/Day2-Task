@@ -84,7 +84,18 @@ var xhr = new XMLHttpRequest();
          var undef ; //undefiend
          var empty = null; //null
          
-      6)   
+      6) 6. Convert the string to integer
+       let str = "123"
+      * parseInt(str)
+      * Number(str)
+      *(+str)
+      
+      7. Write 6 statement which provide truthy & falsey values.
+      
+     truthy statement 
+     * 1<2 ; 1 == "1" ; 1 == [1]; '1' == [1]; true ;
+     falsey staement 
+     * 1 === '1'; 1 === [1]; '1' === [1]; false ;
         
          
          
