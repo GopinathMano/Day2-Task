@@ -52,7 +52,7 @@ var xhr = new XMLHttpRequest();
        
        4)https://medium.com/@reach2arunprakash/www-guvi-io-zen-d395deec1373
        
-       Task1:
+       Sub-Task1:
        1)Declare four variables without assigning values and print them in console?
       
       Ans)var person1; //output:undefined
