@@ -118,6 +118,30 @@ console.log(num);
 e)Return all the palindromes in an array
 
 
-Return median of two sorted arrays of same size
+//ananymous function
+const arr = ["carecar", 1344, 12321, "mom", "did", "cannot"];
+const palindrome = function (el) {
+  const str = String(el);
+  let i = 0;
+  let j = str.length - 1;
+  while (i < j) {
+    if (str[i] === str[j]) {
+      i++;
+      j--;
+    } else {
+      return false;
+    }
+  }
+  return true;
+};
+const findPalindrome = function (arr)  {
+  return arr.filter((el) => palindrome(el));
+};
+console.log(findPalindrome(arr));
+
+
+f)Return median of two sorted arrays of same size ??
+
+
 Remove duplicates from an array
 Rotate an array by k times
