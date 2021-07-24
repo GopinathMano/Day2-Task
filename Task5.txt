@@ -1,0 +1,123 @@
+Task 5 (23/07/2021)
+
+1)Do the below programs in anonymous function & IIFE
+a)Print odd numbers in an array ?
+var arr = [1, 2, 3];
+let ans = [];
+// anonymus function
+var odd = function (x) {
+  for (var i = 0; i < x.length; i++) {
+    if (x[i] % 2 != 0) {
+      ans.push(x[i]);
+    }
+  }
+
+  return ans;
+};
+console.log(odd(arr));
+
+// iffe
+var arr = [1, 2, 3];
+(function (x, ans = []) {
+  for (var i = 0; i < x.length; i++) {
+    if (x[i] % 2 != 0) {
+      ans.push(x[i]);
+    }
+  }
+  console.log(ans);
+})(arr);
+
+
+b) Convert all the strings to title caps in a string array
+ 
+ // anonymous function
+ 
+ let str = " i am a string";
+
+var titleCaps = function (str) {
+  str = str.toLowerCase().split(" ");
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+  }
+  return str.join(" ");
+};
+console.log(titleCaps(str));
+
+// iffe
+
+let str = " i am a string";
+
+(function (str) {
+  str = str.toLowerCase().split(" ");
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+  }
+  console.log(str.join(" "));
+})(str);
+
+c) Sum of all numbers in an array
+ // anonymous function
+var num = [1, 2, 3, 4, 5];
+
+var sumOfArray = function (add, sum = 0) {
+  for (i = 0; i < add.length; i++) {
+    sum = sum + add[i];
+  }
+  return sum;
+};
+console.log(sumOfArray(num));
+
+//iffe
+var num = [1, 2, 3, 4, 5];
+
+(function (add, sum = 0) {
+  for (i = 0; i < add.length; i++) {
+    sum = sum + add[i];
+  }
+  console.log(sum);
+})(num);
+
+
+
+d)Return all the prime numbers in an array?
+ 
+ // anonymous function
+var val = [2, 3, 4, 5];
+var primeNum = function (num) {
+  num.map((number) => {
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+        let index = num.indexOf(number);
+        return num.splice(index, 1);
+      }
+    }
+  });
+
+  return num;
+};
+console.log(primeNum(val));
+
+
+//iffe
+var val = [2, 3, 4, 5];
+
+(function (num) {
+  num.map((number) => {
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+        let index = num.indexOf(number);
+        return num.splice(index, 1);
+      }
+    }
+  });
+console.log(num);
+})(val);
+
+
+
+e)Return all the palindromes in an array
+
+
+Return median of two sorted arrays of same size
+Remove duplicates from an array
+Rotate an array by k times
