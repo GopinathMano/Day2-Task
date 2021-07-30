@@ -49,7 +49,7 @@ Task 3  21/07/21
     ]
   }]}
   
-  3) Read about the difference between window, screen and document in javascript?
+  /*3) Read about the difference between window, screen and document in javascript?
   
 **Window is the execution context and global object for that context's JavaScript
 **Document contains the DOM, initialized by parsing HTML
@@ -57,5 +57,5 @@ Task 3  21/07/21
 
 4)Codekata practice
 
-Done
+Done*/
   
